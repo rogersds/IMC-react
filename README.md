@@ -4,18 +4,18 @@ Este projeto é uma Calculadora de IMC (Índice de Massa Corporal) desenvolvida 
 
 ### 📋 Estrutura do Projeto
 #### Componentes Principais
-1. Button
+#### Button
 Um componente reutilizável que encapsula a funcionalidade de botões.
 Recebe propriedades dinâmicas como identificador (id), texto exibido no botão (text) e a ação a ser executada (action).
 Facilita a criação de botões consistentes e com comportamentos específicos.
 
-2. ImcCalc
+#### ImcCalc
 Componente responsável pela interface do formulário onde o usuário insere seus dados de altura e peso.
 Implementa validações simples para aceitar apenas números e separadores válidos nas entradas.
 Inclui botões de ação para calcular o IMC e limpar os campos do formulário.
 Trabalha com estados controlados utilizando hooks do React (useState) para gerenciar os valores de entrada dinamicamente.
 
-3. App
+#### App
 Componente principal que gerencia o fluxo entre as diferentes etapas da aplicação:
 Exibe o formulário inicial para entrada de dados.
 Processa o cálculo do IMC e classifica o resultado.
@@ -46,8 +46,7 @@ O botão "Limpar" ou "Reiniciar" redefine os estados da aplicação para permiti
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+  <img align="center" alt="Rafa-Nodejs" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+>
 </div>
-React: Gerenciamento de componentes e lógica de estados.
-JavaScript: Implementação da lógica de cálculo e manipulação de dados.
-CSS: Estilização da interface para torná-la agradável e responsiva.
+
